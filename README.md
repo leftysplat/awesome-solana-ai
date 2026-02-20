@@ -24,12 +24,14 @@ AI coding skills that enhance developer productivity on Solana.
 - [solana-dev-skill](https://github.com/solana-foundation/solana-dev-skill) - End-to-end Solana development skill for Claude Code. Covers wallet connections, Anchor/Pinocchio programs, client generation, testing with LiteSVM/Mollusk, and security best practices.
 - [solana-anchor-claude-skill](https://github.com/mikemaccana/solana-anchor-claude-skill) - end to end Solana development for Anchor and Solana Kit, focusing on modern, minimal, readable code. Testing is with native JS test runners or LiteSVM.
 - [solana-skills-plugin](https://github.com/tenequm/claude-plugins/tree/main/solana) - Solana skills for Claude Code: program development with Anchor/native Rust (testing and deployment included), security auditing with vulnerability detection and audit report generation, and ZK compression for rent-free tokens/PDAs via Light Protocol.
+- [clawpump-skill](https://www.clawpump.tech/skill.md) - AI agent skill for ClawPump covering gasless and self-funded token launches on pump.fun, dynamic dev buys with instant graduation, 65% trading fee revenue share, and social amplification via Moltbook.
 - [magicblock-dev-skill](https://github.com/magicblock-labs/magicblock-dev-skill) - End-to-end MagicBlock development skill for Claude Code. [MagicBlock](https://magicblock.xyz) is a Solana network extension designed to help programs with latency/privacy needs, along with other native tools like VRFs, Cranks, Session Keys and more.
 - [solana-game-skill](https://github.com/solanabr/solana-game-skill) - Claude Code skills for developing games on Solana. Covers C#, React Native, Magicblock's Solana Unity SDK, Solana Mobile and Playsolana Unity SDK. Extends [solana-dev-skill](https://github.com/solana-foundation/solana-dev-skill).
 - [metaplex-skill](https://github.com/metaplex-foundation/skill) - Official Metaplex development skill covering Core NFTs, Token Metadata, Bubblegum, Candy Machine, Genesis token launches, the mplx CLI, and Umi/Kit SDKs.
 
 ### DeFi
 
+- [clawpump-arbitrage-skill](https://clawpump.tech/arbitrage.md) - AI agent skill for multi-DEX arbitrage on Solana covering 11 DEX quote aggregation, roundtrip and bridge strategies, and ready-to-sign transaction bundle generation.
 - [jupiter-skill](https://github.com/jup-ag/agent-skills/tree/main/skills/integrating-jupiter) - AI coding skill for Jupiter covering Ultra swaps, limit orders, DCA, perpetuals, lending, and token APIs on Solana.
 - [drift-skill](https://github.com/sendaifun/skills/tree/main/skills/drift) - AI coding skill for Drift Protocol SDK covering perpetual futures, spot trading, and DeFi applications on Solana.
 - [kamino-skill](https://github.com/sendaifun/skills/tree/main/skills/kamino) - AI coding skill for Kamino Finance covering lending, borrowing, liquidity management, leverage trading, and oracle aggregation on Solana.
@@ -41,6 +43,7 @@ AI coding skills that enhance developer productivity on Solana.
 - [sanctum-skill](https://github.com/sendaifun/skills/tree/main/skills/sanctum) - AI coding skill for Sanctum covering liquid staking, LST swaps, and Infinity pool operations on Solana.
 - [dflow-skill](https://github.com/sendaifun/skills/tree/main/skills/dflow) - AI coding skill for DFlow trading protocol covering spot trading, prediction markets, Swap API, and WebSocket streaming on Solana.
 - [ranger-finance-skill](https://github.com/sendaifun/skills/tree/main/skills/ranger-finance) - AI coding skill for Ranger Finance, a Solana perps aggregator across Drift, Flash, Adrena, and Jupiter.
+- [octav-api-skill](https://github.com/Octav-Labs/octav-api-skill) - AI coding skill for Octav API covering Solana wallet portfolio tracking, transaction history, DeFi protocol positions, and token analytics.
 
 ### Infrastructure
 
@@ -65,12 +68,14 @@ AI agents and autonomous systems built for Solana.
 - [AgenC](https://github.com/tetsuo-ai/AgenC) - Privacy-focused multi-agent coordination framework with ZK proof integrations and confidential compute for Solana.
 - [Breeze Agent Kit](https://github.com/anagrambuild/breeze-agent-kit) - Toolkit for building AI agents that manage Solana yield farming via the Breeze protocol, with four integration paths: MCP server, x402 payment-gated API, a portable SKILL.md for agent frameworks, and one-command install through ClawHub.
 - [Splatworld](https://splatworld.io) - Agent social platform for AI agents to collaborate and vote to generate their own metaverse of 3D gaussian splat worlds and implementing an agentic economy powered by x402.
+- [SP3ND Agent Skill](https://github.com/kent-x1/sp3nd-agent-skill) - Agent skill for buying products from Amazon using USDC on Solana. Fully autonomous via x402 payment protocol — register, build a cart, place an order, and pay with USDC in a single API flow. 0% platform fee, no KYC, free Prime shipping to 200+ countries across 22 Amazon marketplaces.
 
 ## Developer Tools
 
 AI-enhanced development tools for the Solana ecosystem.
 
 - [Solana Developer MCP](https://mcp.solana.com/) - Maintained by Solana. Solana MCP (Model Context Protocol) is a specialized AI assistant that integrates directly into AI-supported IDEs like Cursor and Windsurf (works with Claude CLI as well). Automatically queries the MCP server to provide accurate, up-to-date information from Solana and Anchor Framework documentation.
+- [DFlow MCP Server](https://pond.dflow.net/build/mcp) - Unified spot + prediction market trading API with smart routing and low-failure execution; MCP connects AI tools to DFlow docs, APIs, and code recipes for accurate integrations on Solana.
 - [SLO (Solana LLM Oracle)](https://github.com/GauravBurande/solana-llm-oracle) - Enables LLM inference directly in Solana programs for on-chain AI capabilities in games and protocols requiring autonomous functions.
 - [LumoKit](https://github.com/Lumo-Labs-AI/lumokit) - Lightweight Python AI toolkit for Solana with on-chain actions, token swaps via Jupiter, and research capabilities for ecosystem developers.
 - [AImpact](https://aimpact.dev) - online AI-powered IDE for Web3 apps generation, including generating and deploying (currently to devnet, mainnet coming soon) Solana smart contracts.
